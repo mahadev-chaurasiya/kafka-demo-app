@@ -1,4 +1,20 @@
-Kafka Integration
+#Kafka Integration
+
+#JAVA 17
+#SpringBoot 3.4.2
+
+API's Developed
+
+1.localhost:8080/api/v1/kafka/publish2
+Payload
+{
+	"id":4,
+	"eventName":"test",
+	"eventSource":"local"
+}
+
+
+2.localhost:8080/api/v1/kafka/publish?message=hello
 
 #Step 1: Get Kafka
 Download the latest Kafka release and extract it:
